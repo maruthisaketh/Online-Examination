@@ -1,0 +1,103 @@
+<web-app>
+	<welcome-file-list>
+		<welcome-file>login.html</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>loginservlet</servlet-name>
+		<servlet-class>loginservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginservlet</servlet-name>
+		<url-pattern>/loginservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>process</servlet-name>
+		<servlet-class>process</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>process</servlet-name>
+		<url-pattern>/process</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>rules</servlet-name>
+		<servlet-class>rules</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>rules</servlet-name>
+		<url-pattern>/rules</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>questions</servlet-name>
+		<servlet-class>questions</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>questions</servlet-name>
+		<url-pattern>/questions</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>answers</servlet-name>
+		<servlet-class>answers</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>answers</servlet-name>
+		<url-pattern>/answers</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>results</servlet-name>
+		<servlet-class>results</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>results</servlet-name>
+		<url-pattern>/results</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>adminpage</servlet-name>
+		<servlet-class>adminpage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminpage</servlet-name>
+		<url-pattern>/adminpage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>options</servlet-name>
+		<servlet-class>options</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>options</servlet-name>
+		<url-pattern>/options</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>optcheck</servlet-name>
+		<servlet-class>optcheck</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>optcheck</servlet-name>
+		<url-pattern>/optcheck</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>display</servlet-name>
+		<servlet-class>display</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>display</servlet-name>
+		<url-pattern>/display</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+</web-app>
